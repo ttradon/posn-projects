@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 03:02:14 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDI6MjI6MTIgUE07MjQzMw=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDM6MDI6MTQgUE07MjsyNTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n, total" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#3585;&#3619;&#3640;&#3603;&#3634;&#3611;&#3657;&#3629;&#3609;&#3605;&#3633;&#3623;&#3648;&#3621;&#3586;&quot;" newline="True"/>
+            <assign variable="total" expression="0"/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <input variable="n"/>
+                <assign variable="total" expression="total+n"/>
+            </for>
+            <assign variable="total" expression="-total"/>
+            <output expression="&quot;Total = &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

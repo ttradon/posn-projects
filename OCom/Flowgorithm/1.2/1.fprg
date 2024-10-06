@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 02:09:53 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6MDk6NTAgUE07MjQzOQ=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDI6MDk6NTMgUE07NDsyNTU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="weight, height, bmi" type="Real" array="False" size=""/>
+            <output expression="&quot;&#3585;&#3619;&#3640;&#3603;&#3634;&#3611;&#3657;&#3629;&#3609;&#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585;&#3586;&#3629;&#3591;&#3588;&#3640;&#3603;&quot;" newline="True"/>
+            <input variable="weight"/>
+            <output expression="&quot;&#3585;&#3619;&#3640;&#3603;&#3634;&#3611;&#3657;&#3629;&#3609;&#3626;&#3656;&#3623;&#3609;&#3626;&#3641;&#3591;&#3586;&#3629;&#3591;&#3588;&#3640;&#3603;&quot;" newline="True"/>
+            <input variable="height"/>
+            <assign variable="bmi" expression="weight/(0.01*height)^2"/>
+            <output expression="&quot;&#3588;&#3656;&#3634;&#3604;&#3633;&#3594;&#3609;&#3637;&#3617;&#3623;&#3621;&#3585;&#3634;&#3618;(BMI)&#3586;&#3629;&#3591;&#3588;&#3640;&#3603;&#3588;&#3639;&#3629; &quot; &amp; bmi" newline="True"/>
+            <if expression="bmi &gt;= 30">
+                <then>
+                    <output expression="&quot;&#3650;&#3619;&#3588;&#3629;&#3657;&#3623;&#3609;&#3629;&#3633;&#3609;&#3605;&#3619;&#3634;&#3618;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="bmi &gt;= 25">
+                        <then>
+                            <output expression="&quot;&#3650;&#3619;&#3588;&#3629;&#3657;&#3623;&#3609;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="bmi &gt;= 23">
+                                <then>
+                                    <output expression="&quot;&#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585;&#3648;&#3585;&#3636;&#3609;&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="bmi &gt;= 18.5">
+                                        <then>
+                                            <output expression="&quot;&#3626;&#3617;&#3626;&#3656;&#3623;&#3609;&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;&#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585;&#3605;&#3656;&#3635;&#3585;&#3623;&#3656;&#3634;&#3648;&#3585;&#3603;&#3601;&#3660;&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

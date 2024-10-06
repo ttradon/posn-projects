@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 03:42:25 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDM6Mzc6MTUgUE07MjQ0Mw=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDM6NDI6MjUgUE07MTsyNTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i &lt;= 12">
+                <assign variable="sum" expression="n*i"/>
+                <output expression="n &amp; &quot; x &quot; &amp; i &amp; &quot; = &quot; &amp; sum" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

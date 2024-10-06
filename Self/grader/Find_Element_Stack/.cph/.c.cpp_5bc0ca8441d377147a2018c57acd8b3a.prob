@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"c:\\Users\\ttrad\\Documents\\POSN COM\\Self\\grader\\Find_Element_Stack\\c.cpp","tests":[{"id":1728138931259,"input":"5\n32 44 75 33 22\n32","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ttrad\\Documents\\POSN COM\\Self\\grader\\Find_Element_Stack\\c.cpp","group":"local","local":true}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 02:52:16 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6MTM6MjEgUE07MjQzMg=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDI6NTI6MTYgUE07NDsyNTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Num A&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter Num B&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="C" expression="10"/>
+            <assign variable="sum" expression="(5*(a-b))/c"/>
+            <output expression="&quot;Total = &quot; &amp; sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 02:49:13 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6MjQ6MjEgUE07MjQzNA=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDI6NDk6MTMgUE07MzsyNTUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, Total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Num A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Enter Num B&quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="A&gt;B">
+                <then>
+                    <assign variable="Total" expression="A-B"/>
+                </then>
+                <else>
+                    <assign variable="Total" expression="B-A"/>
+                </else>
+            </if>
+            <output expression="&quot;Total = &quot; &amp; Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

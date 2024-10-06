@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 01:41:33 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6MTc6MTQgUE07MjQzOA=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6NDE6MzMgUE07NDsyNTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="firstname, lastname, class" type="String" array="False" size=""/>
+            <declare name="no" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Name :&quot;" newline="True"/>
+            <input variable="firstname"/>
+            <output expression="&quot;Enter Last Name :&quot;" newline="True"/>
+            <input variable="lastname"/>
+            <output expression="&quot;Enter No :&quot;" newline="True"/>
+            <input variable="no"/>
+            <output expression="&quot;Enter Class :&quot;" newline="True"/>
+            <input variable="class"/>
+            <output expression="&quot;Welcome : &quot; &amp; firstname &amp; &quot; &quot; &amp; lastname &amp; &quot; No. &quot; &amp; no &amp; &quot; Class. &quot; &amp; class" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

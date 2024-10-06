@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 01:38:23 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MTE6MjY6NDQgQU07MjQyNw=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6Mzg6MjMgUE07MzsyNTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Name" type="String" array="False" size=""/>
+            <declare name="Age, BE, AD, Birthday" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#3594;&#3639;&#3656;&#3629;&#3586;&#3629;&#3591;&#3588;&#3640;&#3603; &#3588;&#3639;&#3629; &quot;" newline="True"/>
+            <input variable="Name"/>
+            <output expression="&quot;&#3629;&#3634;&#3618;&#3640;&#3586;&#3629;&#3591;&#3588;&#3640;&#3603; &#3588;&#3639;&#3629; &quot;" newline="True"/>
+            <input variable="Age"/>
+            <output expression="&quot;&#3611;&#3637; &#3614;.&#3624;. &#3611;&#3633;&#3592;&#3592;&#3640;&#3610;&#3633;&#3609; &#3588;&#3639;&#3629; &quot;" newline="True"/>
+            <input variable="BE"/>
+            <assign variable="Birthday" expression="BE - Age"/>
+            <assign variable="AD" expression="Birthday - 543"/>
+            <output expression="&quot;&#3626;&#3623;&#3633;&#3626;&#3604;&#3637;&#3588;&#3656;&#3632; &#3588;&#3640;&#3603; &quot; &amp; name &amp; &quot; &#3611;&#3637; &#3588;.&#3624;. &#3586;&#3629;&#3591;&#3588;&#3640;&#3603; &#3588;&#3639;&#3629; &#3611;&#3637; &quot; &amp; AD" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

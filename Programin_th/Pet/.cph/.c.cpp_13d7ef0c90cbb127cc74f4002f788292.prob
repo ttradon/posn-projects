@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"c:\\Users\\ttrad\\Documents\\POSN COM\\Programin_th\\Pet\\c.cpp","tests":[{"id":1728052009988,"input":"4 4 3 3\n5 4 3 5\n5 5 2 4\n5 5 5 1\n4 4 4 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ttrad\\Documents\\POSN COM\\Programin_th\\Pet\\c.cpp","group":"local","local":true}

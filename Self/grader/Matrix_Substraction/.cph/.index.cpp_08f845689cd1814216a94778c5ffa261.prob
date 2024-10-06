@@ -1,0 +1,1 @@
+{"name":"Local: index","url":"c:\\Users\\ttrad\\Documents\\POSN COM\\grader\\Matrix_Substraction\\index.cpp","tests":[{"id":1727773496719,"input":"4 2\n1 0 4 3\n4 5 7 3\n1 1 2 2 \n3 3 4 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ttrad\\Documents\\POSN COM\\grader\\Matrix_Substraction\\index.cpp","group":"local","local":true}

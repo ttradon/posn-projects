@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 01:38:56 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6MDQ6NTMgUE07MjQzNw=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6Mzg6NTYgUE07MzsyNTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, avg" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter Num x &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Enter Num y &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;Enter Num z &quot;" newline="True"/>
+            <input variable="z"/>
+            <assign variable="avg" expression="(x+y+z)/3"/>
+            <output expression="&quot;Average x,y,z = &quot; &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

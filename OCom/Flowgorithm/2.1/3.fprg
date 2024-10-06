@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="COM5370101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-10-03 02:49:30 PM"/>
+        <attribute name="created" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDE6MjY6NDcgUE07MjQ0NA=="/>
+        <attribute name="edited" value="Q09NNTM3MDEwMTtDT001MzgwMjAzOzI1NjctMTAtMDM7MDI6NDk6MzAgUE07MzsyNTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="score, midterm, final, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Score&quot;" newline="True"/>
+            <input variable="score"/>
+            <output expression="&quot;Enter Midterm&quot;" newline="True"/>
+            <input variable="midterm"/>
+            <output expression="&quot;Enter Final&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="sum" expression="score + midterm + final"/>
+            <if expression="sum &gt;= 80">
+                <then>
+                    <output expression="&quot;A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sum &gt;= 75">
+                        <then>
+                            <output expression="&quot;B+&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="sum &gt;= 70">
+                                <then>
+                                    <output expression="&quot;B&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="sum &gt;= 65">
+                                        <then>
+                                            <output expression="&quot;C+&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="sum &gt;= 60">
+                                                <then>
+                                                    <output expression="&quot;C&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="sum &gt;= 55">
+                                                        <then>
+                                                            <output expression="&quot;D+&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="sum &gt;= 50">
+                                                                <then>
+                                                                    <output expression="&quot;D&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;F&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
